@@ -40,6 +40,11 @@ formIsian.addEventListener("submit", async e => {
   }
 });
 
+inputPesan.addEventListener('input', () => {
+    inputPesan.style.height = 'auto'; // Reset height
+    inputPesan.style.height = Math.min(inputPesan.scrollHeight, 150) + 'px'; // Set new height, max 100px
+  });
+
 // ambil semua elemen yang dibutuhkan
 const hapusIMG = document.querySelector(".hapusIMG");
 const inputFile = document.querySelector("#inputFile");
