@@ -1,0 +1,76 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>pesan anonim</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="judul">
+          <h1>pesam anonim</h1>
+          <p>kirim apa ajalah gpp, gabut kan</p>
+        </div>
+        <div class="profil">
+          <a href="https://github.com/fidih/">
+            <img src="./img/pp.jpg" alt="profile" />
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <form enctype="multipart/form-data" id="formIsian">
+          <input
+            placeholder="Nama Palsu boleh"
+            type="text"
+            name="nama"
+            id="inputNama"
+          />
+          <textarea
+            placeholder="Ketik apa ajah"
+            name="pesan"
+            id="inputPesan"
+          ></textarea>
+          <input
+            name="media"
+            type="file"
+            accept="image/*, video/*"
+            id="inputFile"
+          />
+
+          <div class="tombol">
+            <button id="btnKirim" type="submit">kirim</button>
+            <button type="button">
+              <label for="inputFile">media</label>
+            </button>
+          </div>
+        </form>
+        <div class="preview">
+          <div class="hapusIMG">×</div>
+          <div id="previewMedia"></div>
+        </div>
+      </main>
+    </div>
+    <div id="notif"></div>
+    <div class="area">
+      <ul class="circles">
+        <li>F</li>
+        <li>I</li>
+        <li>D</li>
+        <li>H</li>
+        <li>N</li>
+        <li>R</li>
+        <li>D</li>
+        <li>A</li>
+        <li>T</li>
+        <li>S</li>
+      </ul>
+    </div>
+  </body>
+</html>
