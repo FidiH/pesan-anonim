@@ -148,9 +148,14 @@ main .preview .hapusIMG {
   position: fixed;
   top: 0;
   left: 0;
+  padding: 3em;
   background: #3e135f4d;
   height: 100vh;
+  text-shadow: 0 0 10px #3e135f4d;
+  font-weight: 600;
   width: 100%;
+  color: #fffbfb;
+  text-align: center;
   display: none;
   justify-content: center;
   align-items: center;
